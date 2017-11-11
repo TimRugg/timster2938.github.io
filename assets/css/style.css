@@ -1,0 +1,206 @@
+/**
+ * Layout for all Basic-Portfolio web pages
+ **/
+
+body {
+	background-image: url("../images/checkered_pattern.png");
+	color: #777777;
+ 	font-family: "Arial", Helvetica, sans-serif;
+}
+
+header {}
+
+footer {
+	width: 100%;
+	background-color: #666666;
+	color: #777777;
+	border-width: 5px;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	padding: 22px;
+	bottom: 0;
+	}
+
+h1, h2, h3 {
+	font-family: "Georgia", serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 18px;
+	line-height: 27px;
+}
+
+summary {
+	width: 650px;
+	position: relative;
+}
+
+nav {}
+
+.main_header {
+	width: 100%;
+	background-color: #ffffff;
+	margin: auto;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #cccccc;
+}
+
+.main_header_title {
+	display: inline-block;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 22px;
+	position: relative;
+	left: 10%;
+}
+
+.main_header_sidebar {
+	display: inline-block;
+	position: absolute;
+	right: 200px;
+	top: 10px;
+}
+
+.main_content {
+	width: 960px;
+	background-color: #ffffff;
+	position: relative;
+	left: 0px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main_content_header {
+	color: #4aaaa5;
+	padding-top: 12px;
+	margin-right: 12px;
+	padding-bottom: 12px;
+	margin-left: 12px;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #dddddd;
+}
+
+.main_content_summary {
+	margin-top: 12px;
+	margin-right: 12px;
+	padding-bottom: 12px;
+	margin-left: 12px;
+}
+
+.main_content_contactme{
+	padding: 22px;
+}
+
+textarea {
+	height:100px;
+}
+
+.input_field {
+	padding: 20px;
+}
+
+.input_value {
+	width: 400px;
+}
+
+.send_button {
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-size: 18px;
+	text-align: center;
+	width: 135px;
+	padding: 8px;
+}
+
+.main_content_portfolio1{
+	width: 334px;
+	height: 665px;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+
+.main_content_portfolio2{
+	width: 334px;
+	height: 665px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.li_image {
+	position: relative;
+	left: 32px;
+}
+
+.li_image img {
+	margin-top: 12px;
+}
+
+.li_image span {
+	width: 254px; /* 254+padding=8*2=16=270 */
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: 14px;
+	padding: 8px;
+}
+
+.main_content_sidebar {
+	clear: both;    /* clear and reset overflow here because main content sidebar */
+	overflow: auto; /* is the next html after float was used in summary           */
+	width: 270px;
+	background-color: #ffffff;
+	position: absolute;
+	right: 0;
+	top: 0; 
+	text-align: center;
+}
+
+.nav_list {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.nav_list_header {
+	color: #4aaaa5;
+	text-align: center;
+	padding-bottom: 22px;
+}
+
+.nav_list_item {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 18px;
+	padding: 0 5px 0 5px;
+}
+
+#MyPicture {
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 6px;
+}
