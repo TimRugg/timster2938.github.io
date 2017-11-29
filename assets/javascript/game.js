@@ -46,7 +46,7 @@ document.getElementById("gameMessage").innerHTML = "Choose a letter from A to Z 
 document.getElementById("gameCorrectGuessesDisplayed").innerHTML = correctGuessesDisplayed;
 document.getElementById("gameNumberOfGuessesRemaining").innerHTML = 12;
 document.getElementById("gameIncorrectGuessedDisplayed").innerHTML = ".";
-document.getElementById("gameImage").setAttribute("src", "./assets/images/" + themeImage);
+document.getElementById("gameImage").setAttribute("src", "assets/images/" + themeImage);
 
 // 	Listen for key
 document.onkeyup = function(event) {
@@ -85,7 +85,7 @@ document.onkeyup = function(event) {
 			document.getElementById("gameCorrectGuessesDisplayed").innerHTML = correctGuessesDisplayed;
 			document.getElementById("gameNumberOfGuessesRemaining").innerHTML = (totalIncorrectGuessesAllowed - counterIncorrectGuesses);
 			document.getElementById("gameIncorrectGuessedDisplayed").innerHTML = ".";
-			document.getElementById("gameImage").setAttribute("src", "./assets/images/" + themeImage);
+			document.getElementById("gameImage").setAttribute("src", "assets/images/" + themeImage);
 			}		
 		}	
 	else if (allowedCharacters.indexOf(userKeyPressed) < 0) 
