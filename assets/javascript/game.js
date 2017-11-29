@@ -46,7 +46,7 @@ document.getElementById("gameMessage").innerHTML = "Choose a letter from A to Z 
 document.getElementById("gameCorrectGuessesDisplayed").innerHTML = correctGuessesDisplayed;
 document.getElementById("gameNumberOfGuessesRemaining").innerHTML = 12;
 document.getElementById("gameIncorrectGuessedDisplayed").innerHTML = ".";
-document.getElementById("gameImage").setAttribute("src", "./assets/images/" + themeImage);
+document.getElementById("gameImage").setAttribute("src", "../assets/images/" + themeImage);
 
 // 	Listen for key
 document.onkeyup = function(event) {
@@ -62,10 +62,10 @@ document.onkeyup = function(event) {
 			document.getElementById("gameNumberOfGuessesRemaining").innerHTML = "";
 			document.getElementById("gameIncorrectGuessedDisplayed").innerHTML = ".";
 				if (counterGamesWon > counterGamesLost) {
-					document.getElementById("gameImage").setAttribute("src", "./assets/images/hangmanWIN.png");
+					document.getElementById("gameImage").setAttribute("src", "../assets/images/hangmanWIN.png");
 				}
 				else {
-					document.getElementById("gameImage").setAttribute("src", "./assets/images/hangman12.png");		
+					document.getElementById("gameImage").setAttribute("src", "../assets/images/hangman12.png");		
 				}
 			}
 			else
@@ -85,7 +85,7 @@ document.onkeyup = function(event) {
 			document.getElementById("gameCorrectGuessesDisplayed").innerHTML = correctGuessesDisplayed;
 			document.getElementById("gameNumberOfGuessesRemaining").innerHTML = (totalIncorrectGuessesAllowed - counterIncorrectGuesses);
 			document.getElementById("gameIncorrectGuessedDisplayed").innerHTML = ".";
-			document.getElementById("gameImage").setAttribute("src", "./assets/images/" + themeImage);
+			document.getElementById("gameImage").setAttribute("src", "../assets/images/" + themeImage);
 			}		
 		}	
 	else if (allowedCharacters.indexOf(userKeyPressed) < 0) 
@@ -108,7 +108,7 @@ document.onkeyup = function(event) {
 			document.getElementById("gameIncorrectGuessedDisplayed").innerHTML = incorrectGuessesDisplayed;
 			document.getElementById("gameNumberOfGuessesRemaining").innerHTML = (totalIncorrectGuessesAllowed - counterIncorrectGuesses);			
 			//display sequence of images
-			document.getElementById("gameImage").setAttribute("src", "./assets/images/hangman" + counterIncorrectGuesses + ".png");
+			document.getElementById("gameImage").setAttribute("src", "../assets/images/hangman" + counterIncorrectGuesses + ".png");
 			if (totalIncorrectGuessesAllowed == counterIncorrectGuesses)
 				{
 					// LOSE GAME
