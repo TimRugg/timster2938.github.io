@@ -1,2 +1,2 @@
-# Basic-Portfolio
-Recommended Assignment 01-html-git-css
+# Hangman-Game
+JavaScript Assignment
