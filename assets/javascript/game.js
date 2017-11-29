@@ -159,7 +159,7 @@ document.onkeyup = function(event) {
 				counterGamesPlayed++
 				gameReset=true;
 				document.getElementById("gameMessage").innerHTML = "***** You Won! ****** Choose any key to reset.";
-				document.getElementById("gameImage").setAttribute("src", "./assets/images/hangmanWIN.png");
+				document.getElementById("gameImage").setAttribute("src", "./assets/images/hangmanWIN.jpg");
 				document.getElementById("gameScoreWins").innerHTML = "Wins<br>" + counterGamesWon;
 			}
 		}
