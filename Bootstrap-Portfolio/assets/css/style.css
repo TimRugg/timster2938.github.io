@@ -1,0 +1,124 @@
+/**
+ * Layout for all Basic-Portfolio web pages
+ **/
+
+body {
+	background-image: url("../images/checkered_pattern.png");
+	color: #777777;
+ 	font-family: "Arial", Helvetica, sans-serif;
+}
+
+h2 {
+	font-family: "Georgia", serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #4aaaa5;
+	text-align: left;
+	padding: 12px;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #dddddd;
+}
+
+h3 {
+	font-family: "Georgia", serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #4aaaa5;
+	text-align: left;
+}
+
+p {
+	font-size: 18px;
+	text-align: left;
+	line-height: 27px;
+}
+
+.btn-lg {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border-color: #777777;
+	margin-bottom: 15px;
+}
+
+footer {
+	width: 100%;
+	background-color: #666666;
+	color: #777777;
+	border-width: 5px;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	padding: 22px;
+	bottom: 0;
+	}
+
+.navbar-header .navbar-brand {
+	font-family: "Georgia", serif;
+	font-weight: bold;
+	text-align: left;
+	font-size: 36px;
+	padding: 12px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+.navbar-right li {
+	padding: 18px;
+}
+
+.nav_list_item {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 18px;
+	padding: 0 5px 0 5px;
+}
+
+
+/* about me */
+
+#MyPicture {
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 6px;
+}
+
+/* portfolio */
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.contact_submit {
+	background-color: ;: #4aaaa5;
+}

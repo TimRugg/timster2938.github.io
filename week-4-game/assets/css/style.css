@@ -1,0 +1,72 @@
+body {
+	background-image: url("../images/lyonnette/lyonnette_@2X.png");
+}
+
+.container {
+	font-family: 'Courgette', cursive
+}
+
+#gameTitle {
+	background-color: maroon;
+	color: white;
+	border: solid white 3px;
+	font-size:24px;
+	text-align: center;
+	padding:12px;
+}
+
+#gameInstructions {
+	background-color: orange;
+	color: green;
+	border: solid white 3px;
+	padding:12px;
+}
+
+#gameNumberToGuess {
+	background-color: lightgreen;
+	color: red;
+	height: 90px;
+	border: solid white 3px;
+	font-size:24px;
+	font-weight: bold;
+}
+
+#gameScore {
+	background-color: lightblue;
+	color: red;
+	height: 90px;
+	border: solid white 3px;
+}
+
+#gameMessage {
+	padding: 5px;
+	text-align:center;
+}
+
+#gameWins {
+	padding: 2px;
+}
+
+#gameLosses {
+	padding: 2px;
+}
+
+.crystals {
+	height: 70px;
+	width: 70px;
+	margin-right: 5px;
+}
+
+#gameCurrentGuessTitle {
+	background-color: darkgreen;
+	color: white;
+	border: solid white 3px;
+}
+
+#gameCurrentGuess {
+	background-color: darkgreen;
+	color: white;
+	height: 90px;
+	font-size:24px;
+	border: solid white 3px;
+}

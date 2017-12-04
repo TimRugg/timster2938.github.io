@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector</title>
+ 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-5" id="gameTitle">
+			Crystals Collector! 
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-5" id="gameInstructions">
+			<p>You will be given random number at the start of the game.</p>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific number of points to your total score.</p>
+			<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<p>The value of the crytals will change with each game restart.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-3" id="gameNumberToGuess">
+			##
+		</div>
+
+		<div class="col-sm-2" id="gameScore">
+			<div id="gameMessage">game message</div>
+			<div id="gameWins">wins</div>
+			<div id="gameLosses">losses</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-5">
+			<img class="crystals" id="gem1" src="./assets/images/gem1.jpg">
+			<img class="crystals" id="gem2" src="./assets/images/gem2.jpg">
+			<img class="crystals" id="gem3" src="./assets/images/gem3.jpg">
+			<img class="crystals" id="gem4" src="./assets/images/gem4.jpg">			
+			<button type="button" id="gameReset" class="btn btn-default btn-sm btn-red" >Play Again</button>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-5" id="gameCurrentGuessTitle">
+			Your total guess is:
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-5" id="gameCurrentGuess">
+			##
+		</div>
+	</div>
+
+</div>
+
+<script src="assets/javascript/game.js" type="text/javascript"></script>
+</body>
+</html>
