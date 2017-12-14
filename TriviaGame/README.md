@@ -1,0 +1,2 @@
+# TriviaGame
+Learn to use timers by creating a trivia game that will present questions to be answered within a set time. Timers will automatically advance the game. The only user input will be guessing the correct answer and choosing to play again. The questions will be stored within an array with the question, type, correct answer, and additional incorrect answers. A function will also be included to randomize the answer choices. In addition, minimal HTML and CSS will be used. Instead JavaScript and jQuery will control the display.
