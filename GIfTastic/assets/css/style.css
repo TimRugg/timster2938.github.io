@@ -1,0 +1,56 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#displayButtons {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  margin: auto 24px;
+}
+
+.topicButton {
+  font-size: 18px;
+  padding: 6px 8px;
+  margin: 6px;
+}
+
+#displayGifs { 
+  grid-column: 1 / 4;
+  grid-row: 2 / 6;
+}
+
+.gifContainer {
+  float:left;
+  margin:6px 8px;
+}
+
+.gifContainer p {
+  text-align: center;
+}
+
+#displayGifs img {
+  height: 200px;
+  width: 280px;
+}
+
+#inputForm {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  margin-top: 18px;
+  font-size: 18px;
+}
+
+#inputTopic {
+  height: 22px;
+  width: 250px;
+}
+
+#submitTopic {
+  font-size: 14px;
+  padding: 6px 8px;
+  margin: 6px;
+}
+
